@@ -19,10 +19,10 @@ Reproducing similar data (since the simulations are stochastic) from this articl
 		-> This creates in the folder *sphere/LES/* files *1.mat* ... *80.mat*
 	- run `runPIC_POD(runNR)` for *runNR*=1..20 
 	
-		-> This creates in the folders *sphere/PIC-POD/run-runNR/* files *1.mat* ... *80.mat*
+		-> This creates in the folders *sphere/PIC-POD/run-runNR/* files *4.mat* ... *80.mat*
 	- run `runPIC_SVD(runNR)` for *runNR*=1..20 
 	
-		-> This creates in the folders *sphere/PIC-SVD/run-runNR/* files *1.mat* ... *80.mat*
+		-> This creates in the folders *sphere/PIC-SVD/run-runNR/* files *4.mat* ... *80.mat*
 	- run `runstochastic(runNR)` for *runNR*=1..20 
 	
 		-> This creates in the folders *sphere/SVD/run-runNR/* files *1.mat* ... *80.mat*
