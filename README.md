@@ -6,6 +6,16 @@ With this repository we make the code available used to generate the data presen
 
 Reproducing similar data (since the simulations are stochastic) from this article can be done as follows:
 
+ - First, create the output folders with:
+
+	`mkdir -p sphere/LES`
+
+	`mkdir -p sphere/{PIC-POD,PIC-SVD,SVD,POD}/run-{1..20}`
+
+	`mkdir -p plane/det/{1,5,10,50,100}`
+
+	`mkdir -p plane/homNoise/{1,5,10,50,100}/run-{1..10}`
+
  - Testcase on the plane: 
 	 - run `runDetPlane(DT)` for *DT*=1, 5, 10, 50, 100 
 
