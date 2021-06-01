@@ -20,14 +20,14 @@ Reproducing similar data (since the simulations are stochastic) from this articl
 
 	`mkdir -p plane/homNoise/{1,5,10,50,100}/run-{1..10}`
 
- - Testcase on the plane: 
+ - Test case on the plane: 
 	 - run `runDetPlane(DT)` for *DT*=1, 5, 10, 50, 100 
 
 		 -> This creates in the folders *plane/det/DT/* a file *final.mat* containing the simulation data after 2 days.
 	- run `runstochasticDiffu_homgNoise(runNr,DT)`  for *runNr*=1..10 and *DT*=1, 5, 10, 50, 100 
 	
 		->This creates in the folders *plane/homNoise/DT/runNr/*  a file *final.mat* containing the simulation data after 2 days.
-- Testcase on the sphere:
+- Test case on the sphere:
 	- run `runLES()` 
 	
 		-> This creates in the folder *sphere/LES/* files *1.mat* ... *80.mat*
