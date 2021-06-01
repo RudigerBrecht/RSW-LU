@@ -67,6 +67,7 @@ Reproducing similar data (since the simulations are stochastic) from this articl
 ```
 @software{rudigerbrecht_2021_4884919,
   title        = {RudigerBrecht/RSW-LU: First release},
+  author={Brecht, R{\"u}diger and Li, Long and Bauer, Werner and M{\'e}min, Etienne},
   month        = may,
   year         = 2021,
   publisher    = {Zenodo},
